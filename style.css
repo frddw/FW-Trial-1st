@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    padding: 0px
 }
 
 .page-navbar {
@@ -9,7 +10,7 @@ body {
     font-weight: bold;
 }
 
-ul {
+#navbar-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,14 +21,14 @@ ul {
 li {
     color:rgb(255, 255, 255);
     display: inline-block;
-    padding-right: 70px;
+    padding-right: 65px;
 }
 
 li:hover {
     color: gold;
 }
 
-img {
+.image-icon {
     width: 30px;
     height: 30px;
 }
@@ -49,10 +50,38 @@ a {
 
 h1 {
     text-align:center;
+    margin: 1px;
+    padding: 1px;
 }
 
 #text-sopro {
     font-size: 24px;
     text-align: center;
     margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+#mid1-center {
+    text-align: center;
+}
+
+.page-mid1 {
+    list-style: none;
+    padding: 0;
+    padding-right: 20px;
+    margin: 0;
+    display: inline-block;
+    color:rgb(115, 168, 247);
+}
+
+.page-mid1:hover {
+    text-decoration: underline;
+    color:rgb(115, 168, 247);
+}
+
+#page-photoip {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
